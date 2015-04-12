@@ -8,7 +8,7 @@
   ## Release full data
   rm(data_all)
   
-  ## Date Transformation
+  ## Date Time Transformation
   datetime <- paste(as.Date(data$Date), data$Time)
   data$Datetime <- as.POSIXct(datetime)
   
